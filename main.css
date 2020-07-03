@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap');
+body{font-family: 'Noto Sans KR', sans-serif;}
 .header{display:flex; justify-content: center; align-items: center; height:800px; background: url('images/portflio_bg.jpg') no-repeat; background-attachment:fixed; background-size: cover;}
 .header h1{color:#fff; font-size:4vw; overflow: hidden;  border-right: 5px solid #fff; white-space: nowrap; margin: 0 auto; letter-spacing: 1;
     animation: 
