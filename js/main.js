@@ -5,6 +5,10 @@ function offsetMove(i){
 }
 
 $(function(){
+  $(".mo_menu_open").click(function(){
+    $(".header .menu").addClass("active");
+  });
+
   $(".layer_open").click(function(){
     var windowTop = $(window).scrollTop();
 
