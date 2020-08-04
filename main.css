@@ -8,7 +8,7 @@ body{font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box;}
       typing 3.5s steps(30, end),
       blink-caret .75s  infinite;
 }
-.header .menu{position: fixed; top:0%; right:10%; width:800px; background-color: #000; border-radius: 0px 0px 25px 25px; z-index: 1; }
+.header .menu{position: fixed; top:0%; right:10%; width:510px; background-color: #000; border-radius: 0px 0px 25px 25px; z-index: 1; }
 .header .menu li{float: left; font-size:20px; color:#fff; padding:20px; cursor: pointer;  opacity: .6; margin-left:10%;}
 .header .menu li.active{ opacity: 1;}
 .header .mo_menu_open{display:none;}

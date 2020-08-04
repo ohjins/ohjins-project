@@ -21,7 +21,7 @@
                     <li class="active" onclick="javascript:offsetMove(01);">Home</li>
                     <li onclick="javascript:offsetMove(02);">About</li>
                     <li onclick="javascript:offsetMove(03);">Project</li>
-                    <li onclick="javascript:offsetMove(04);">Contact</li>
+                    <!-- <li onclick="javascript:offsetMove(04);">Contact</li> -->
                 </ul>
             </nav>
         </header>
@@ -34,16 +34,9 @@
         </section>
         <section class="project set3">
             <h2>저의 작업물을 좀 더 자세히 살펴보세요!</h2>
-            <article class="project01">
+            <article class="project01 active">
                 <h3>롯데마트몰 출석체크 이벤트</h3>
                 <div class="ar_img_wrap"><img src="images/sakura.jpg" alt="벚꽃따라 출석체크 이미지"></div>
-                <!-- <div class="ar_text_wrap">
-                    <p>header 부분 벚꽃 흩날리는 애니메이션 적용</p>
-                    <p>출석첵크 부분 마우스오버시 해당핀셋 펄스효과 적용</p>
-                    <p>핀셋 클릭시 해당지역의 이미지 레이어팝업</p>
-                    <p>출석체크시 해당 날짜 벚꽃 도장</p>
-                    <p>일정 금액 구매완료시 스탬프 도장</p>
-                </div> -->
                 <button class="layer_open">자세히보기</button>
                 <div class="project01_layer layerpop">
                     <table class="browser-table">
@@ -63,9 +56,36 @@
 							</tr>
 						</tbody>
 					</table>
-                    <p>
+                    <!-- <p>
                         <img src="images/sakura_description.jpg" alt="프로젝트 설명">
-                    </p>
+                    </p> -->
+                    <div class="porject_guide">
+                        <h4>주요 기능 Guide</h4>
+                        <div>
+                            <ol>
+                                <li>1. header 영역 벚꽃 흩날리는 애니메이션</li>
+                                <li>2. 지도상 pinset Pulse 애니메이션 클릭시 해당지역 layer popup 오픈</li>
+                            </ol>
+                        </div>
+                        <h5>header animation 미리보기</h5>
+                        <div>
+                            <p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result" data-user="ReactPresto" data-slug-hash="BaKBPXO" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BaKBPXO">
+                                <span>See the Pen <a href="https://codepen.io/ReactPresto/pen/BaKBPXO">
+                                BaKBPXO</a> by ohjinseok (<a href="https://codepen.io/ReactPresto">@ReactPresto</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                        </div>
+                        <h5>main contents 미리보기</h5>
+                        <div>
+                            <p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result" data-user="ReactPresto" data-slug-hash="qBZWQRE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="pin">
+                                <span>See the Pen <a href="https://codepen.io/ReactPresto/pen/qBZWQRE">
+                                pin</a> by ohjinseok (<a href="https://codepen.io/ReactPresto">@ReactPresto</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                        </div>
+                    </div>
                     <p>
                         <a class="btn-right" target="_blank" href="https://ohjins.github.io/ohjins-project01/index.html">결과물 바로가기<span class="arrow-right"></span></a>
                         
@@ -232,9 +252,9 @@
                 </div>
             </article>
         </section>
-        <section class="contact set4">
+        <!-- <section class="contact set4">
             <h2>contact</h2>
-        </section>
+        </section> -->
     </div>
 </body>
 </html>
